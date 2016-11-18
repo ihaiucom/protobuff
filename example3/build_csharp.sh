@@ -1,0 +1,1 @@
+protoc3 --csharp_out=./Csharp/ ./*.proto

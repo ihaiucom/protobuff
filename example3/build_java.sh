@@ -1,0 +1,1 @@
+protoc3 --java_out=./Java/ ./*.proto

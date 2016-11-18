@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+package google.protobuf;
+
+import "booktag.proto";
+
+option csharp_namespace = "com.ihaiu.test";
+option cc_enable_arenas = true;
+option java_package = "com.ihaiu.test";
+// option java_outer_classname = "TypeProto";
+option java_multiple_files = true;
+option objc_class_prefix = "GPB";
+
+message Book {
+  int32 id = 1;
+  string name = 2;
+  BookTag tag = 3;
+}
